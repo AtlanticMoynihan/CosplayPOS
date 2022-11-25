@@ -17,13 +17,18 @@
   <!--nav bar-->
   <nav class="navbar">
     <div class="navbar-center">
-      <span class="nav-icon">
-        <i class="fas fa-bars"></i>
-      </span>
-      <p><b>Help!</b></p>
+      <!--<span class="nav-icon">-->
+        <!--<i class="fas fa-bars"></i>-->
+      <!--</span>-->
+      <div class="sidebar-btn">
+        <!--<span class="nav-icon">-->
+        <p class="openbtn" onclick="openNav()">☰</p>
+        </span>
+      </div>
+
       <!--<img src="./images/COSPLAYlogo.png" alt="logo" />-->
       <p><b>BTHS Cosplay POS</b></p>
-      <p><b>Log In</b></p>
+
       <div class="cart-btn">
         <span class="nav-icon">
         <i class="fas fa-cart-plus"></i>
@@ -81,7 +86,28 @@
     </div>
   </div>
   <!--endofcart-->
+  
+  <!--regularsidebar-->
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="">Log In</a>
+    <a href="">FAQ</a>
+    <a href="">Info/Contact</a>
+  </div>
+
+  <!--regularsidebarend-->
 
   <script src="app.js"></script>
+  <script>
+  function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+  </script>
 </body>
 </html>
