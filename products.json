@@ -1,0 +1,76 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "Blueberry Muffin (x1)",
+          "price": 0,
+          "image": { "fields": { "file": { "url": "./images/blueberry_muffins.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "Boba Mochi",
+          "price": 0,
+          "image": { "fields": { "file": { "url": "./images/boba_mochi.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "Chocolate Chip Cookies",
+          "price": 0,
+          "image": { "fields": { "file": { "url": "./images/chocolate_chip.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "Chocolate Chip Muffins",
+          "price": 0,
+          "image": { "fields": { "file": { "url": "./images/chocolate_chip_muffins.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+          "title": "Chocoicing Donut",
+          "price": 0,
+          "image": { "fields": { "file": { "url": "./images/chocoiced_donut.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": "Mixed Donut",
+          "price": 0,
+          "image": { "fields": { "file": { "url": "./images/mixed_donut.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "fields": {
+          "title": "Chocolate Donut",
+          "price": 0,
+          "image": { "fields": { "file": { "url": "./images/choco_donut.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "8" },
+        "fields": {
+          "title": "Marble Cake Slice",
+          "price": 0,
+          "image": { "fields": { "file": { "url": "./images/marble_cake_slide.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "9" },
+        "fields": {
+          "title": "Chocolate Chip Croissant",
+          "price": 0,
+          "image": { "fields": { "file": { "url": "./images/chocolate_croissant.jpg" } } }
+        }
+      }
+    ]
+  }
