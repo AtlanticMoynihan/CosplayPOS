@@ -71,6 +71,14 @@
           "price": 0,
           "image": { "fields": { "file": { "url": "./images/chocolate_croissant.jpg" } } }
         }
+      },
+      {
+        "sys": { "id": "10" },
+        "fields": {
+          "title": "Durian",
+          "price": 0,
+          "image": { "fields": { "file": { "url": "./images/durian.png" } } }
+        }
       }
     ]
   }
