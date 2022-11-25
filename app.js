@@ -11,7 +11,8 @@ const cartItems = document.querySelector(".cart-items");
 const cartContent = document.querySelector(".cart-content");
 const cartTotal = document.querySelector('.cart-total');
 const productsDOM = document.querySelector(".products-center");
-
+let tableNumber = document.getElementById('tnumber').value;
+console.log(tableNumber);
 
 //main cart. lists append here. no exceptions.
 let cart = [];
